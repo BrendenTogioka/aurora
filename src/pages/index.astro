@@ -6,8 +6,10 @@ import heroVideo from "../assets/hero.mp4";
 ---
 
 <Layout>
-  <div class="relative flex justify-center items-center h-[80vh]">
-    <h1 class="relative z-10 text-[26vw] font-black text-white">Aurora</h1>
+  <div class="relative flex justify-center items-center h-full">
+    <h1 class="relative z-10 text-[26vw] font-black text-white leading-0">
+      Aurora
+    </h1>
     <!-- <Image src={hero} alt="hero aurora" class="bg-image" /> -->
     <video autoplay muted loop class="bg-video">
       <source src={heroVideo} type="video/mp4" />
@@ -27,7 +29,7 @@ import heroVideo from "../assets/hero.mp4";
   }
   .bg-video {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
